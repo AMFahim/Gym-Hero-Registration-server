@@ -30,21 +30,7 @@ client.connect(err => {
     })
   })
 
-  // app.post('/addReview', (req, res) => {
-  //   const review = req.body;
-  //   clientCollection.insertOne(review)
-  //   .then(result => {
-  //     res.send(result.insertedCount > 0)
-  //   })
-  // })
 
-  // app.get('/reviews', (req, res) => {
-  //   clientCollection.find()
-  //   .toArray((err, reviews) =>{
-  //     res.send(reviews)
-  //   })
-
-  // })
 
 
 
